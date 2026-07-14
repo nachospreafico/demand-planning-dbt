@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
