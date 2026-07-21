@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: retail_rocket
+    tables:
+      - name: events
+      - name: item_properties_1
+      - name: item_properties_2
+      - name: category_tree
