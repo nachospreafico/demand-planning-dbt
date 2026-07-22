@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_events
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+
+      - name: product_id
+        tests:
+          - not_null
+
+  - name: stg_products
+    columns:
+      - name: itemid
+        tests:
+          - not_null
+
+  - name: stg_categories
+    columns:
+      - name: categoryid
+        tests:
+          - unique
+          - not_null

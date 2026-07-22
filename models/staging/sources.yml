@@ -2,6 +2,8 @@ version: 2
 
 sources:
   - name: retail_rocket
+    schema: main
+
     tables:
       - name: events
       - name: item_properties_1

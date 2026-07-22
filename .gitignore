@@ -244,3 +244,18 @@ dbt_packages/
 # Python
 __pycache__/
 *.ipynb
+
+# Raw data
+data/raw/
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# dbt
+target/
+logs/
+dbt_packages/
+
+# Jupyter
+.ipynb_checkpoints/
