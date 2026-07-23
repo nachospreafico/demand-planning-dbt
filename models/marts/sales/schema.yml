@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: fct_sales
+    description: Fact table containing all completed transactions.
+
+    columns:
+      - name: transactionid
+        tests:
+          - unique
+          - not_null
